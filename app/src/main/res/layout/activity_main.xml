@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@android:color/holo_purple"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -16,13 +16,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="false"
         android:layout_alignParentRight="false"
         android:layout_centerInParent="true"
         android:text="@string/TEXT_NAME"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#FFEA00"
         android:textSize="40sp"
-        android:translationY="70sp"
-        android:layout_alignParentEnd="false" />
+        android:translationY="70sp" />
 
     <ImageView
         android:id="@+id/imageView"
